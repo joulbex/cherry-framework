@@ -28,7 +28,7 @@
 
 		init: function(){
 
-			$( document ).on( 'ready', CherryJsCore.ready );
+			$( document ).ready( CherryJsCore.ready );
 
 			$( window ).on( 'load', CherryJsCore.load );
 		},

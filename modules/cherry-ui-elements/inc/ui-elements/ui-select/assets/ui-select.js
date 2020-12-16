@@ -11,7 +11,6 @@
 
 		init: function () {
 			$( document )
-				.on( 'ready.cherry-ui-elements-init', this.render.bind( this ) )
 				.on( 'cherry-ui-elements-init', this.render.bind( this ) );
 		},
 		render: function ( event ) {
